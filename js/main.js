@@ -8,8 +8,8 @@
 
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  /* Número de WhatsApp de la matriz (Tlaltenango) — 52 + 10 dígitos */
-  var WA_NUMBER = "524376880540";
+  /* Número de WhatsApp de contacto — 52 + 10 dígitos */
+  var WA_NUMBER = "526302016666";
 
   document.addEventListener("DOMContentLoaded", function () {
 
