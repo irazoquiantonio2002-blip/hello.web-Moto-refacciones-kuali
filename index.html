@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moto Refacciones Kuali | Refacciones, Cascos y Accesorios para Moto</title>
+  <meta name="description" content="Refacciones, accesorios y equipo para motocicleta en Tlaltenango, Colotlán y García de la Cadena. Cascos certificados, neumáticos, frenos, cadenas, aceites y más, con stock disponible y asesoría de motociclistas. Domina el Camino.">
+  <meta name="keywords" content="moto refacciones Kuali, refacciones para moto, cascos para moto, neumáticos para motocicleta, accesorios para moto, tienda de motos Tlaltenango, refaccionaria de motos Zacatecas, Colotlán, García de la Cadena, llantas para cuatrimoto">
+  <meta name="author" content="Moto Refacciones Kuali">
+  <meta property="og:title" content="Moto Refacciones Kuali | Domina el Camino">
+  <meta property="og:description" content="Todo para tu moto en un solo lugar: refacciones, cascos, neumáticos y accesorios con stock disponible en tres sucursales.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta name="theme-color" content="#0a0d07">
+
+  <!-- Favicon — emblema Kuali: monograma K con buje de rueda sobre sello -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='11' fill='%230a0d07'/%3E%3Ccircle cx='24' cy='24' r='17.5' fill='none' stroke='%23a8e11a' stroke-width='2'/%3E%3Cg fill='none' stroke='%23a8e11a' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M19 14V34'/%3E%3Cpath d='M20.5 24L32 14'/%3E%3Cpath d='M20.5 24L33 34'/%3E%3C/g%3E%3Ccircle cx='20' cy='24' r='4.4' fill='%230a0d07'/%3E%3Ccircle cx='20' cy='24' r='4.4' fill='none' stroke='%23a8e11a' stroke-width='2'/%3E%3C/svg%3E">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       LOADER
+  ══════════════════════════════════════════════════════ -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-bulb">
+      <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="kualiLime-l" x1="12" y1="6" x2="52" y2="60" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#e9ff8f"/><stop offset=".5" stop-color="#a8e11a"/><stop offset="1" stop-color="#72a00c"/>
+          </linearGradient>
+        </defs>
+        <circle cx="32" cy="32" r="29.6" fill="none" stroke="url(#kualiLime-l)" stroke-width="2.2"/>
+        <circle cx="32" cy="32" r="24" fill="none" stroke="url(#kualiLime-l)" stroke-width="1" stroke-dasharray="1.6 4.6" stroke-linecap="round" opacity=".45"/>
+        <g fill="none" stroke="url(#kualiLime-l)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M25 18 V46"/><path d="M27 32 L43.5 18.5"/><path d="M27 32 L44.5 45.5"/>
+        </g>
+        <circle cx="26" cy="32" r="6.1" fill="#0a0d07"/>
+        <circle cx="26" cy="32" r="6.1" fill="none" stroke="url(#kualiLime-l)" stroke-width="2.2"/>
+      </svg>
+    </div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="loader-text">Domina el Camino</span>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════════════ -->
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#hero" class="nav-logo" aria-label="Moto Refacciones Kuali — inicio">
+          <div class="nav-logo-icon" aria-hidden="true">
+            <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+              <defs>
+                <linearGradient id="kualiLime-n" x1="12" y1="6" x2="52" y2="60" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" stop-color="#e9ff8f"/><stop offset=".5" stop-color="#a8e11a"/><stop offset="1" stop-color="#72a00c"/>
+                </linearGradient>
+              </defs>
+              <circle cx="32" cy="32" r="29.6" fill="none" stroke="url(#kualiLime-n)" stroke-width="2.2"/>
+              <circle cx="32" cy="32" r="24" fill="none" stroke="url(#kualiLime-n)" stroke-width="1" stroke-dasharray="1.6 4.6" stroke-linecap="round" opacity=".45"/>
+              <g fill="none" stroke="url(#kualiLime-n)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M25 18 V46"/><path d="M27 32 L43.5 18.5"/><path d="M27 32 L44.5 45.5"/>
+              </g>
+              <circle cx="26" cy="32" r="6.1" fill="#0a0d07"/>
+              <circle cx="26" cy="32" r="6.1" fill="none" stroke="url(#kualiLime-n)" stroke-width="2.2"/>
+            </svg>
+          </div>
+          <div class="nav-logo-copy">
+            <span>Kuali</span>
+            <span>Moto Refacciones</span>
+          </div>
+        </a>
+
+        <nav aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="#ventajas">Por qué Kuali</a></li>
+            <li><a href="#categorias">Categorías</a></li>
+            <li><a href="#comprar">Cómo comprar</a></li>
+            <li><a href="#cascos">Cascos</a></li>
+            <li><a href="#sucursales">Sucursales</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contacto" class="btn-gold nav-cta" style="font-size:13px; padding:12px 26px;">
+          Cotiza por WhatsApp
+        </a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mob-menu" aria-label="Menú móvil">
+      <a href="#ventajas">Por qué Kuali</a>
+      <a href="#categorias">Categorías</a>
+      <a href="#comprar">Cómo comprar</a>
+      <a href="#cascos">Cascos</a>
+      <a href="#sucursales">Sucursales</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#contacto">Cotiza por WhatsApp →</a>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════════════ -->
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <!-- Imagen de fondo (fachada nocturna de la matriz Kuali) -->
+      <div class="hero-bg" aria-hidden="true"></div>
+      <!-- Capas oscuras -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <!-- Textura de retícula -->
+      <div class="hero-grid" aria-hidden="true"></div>
+      <!-- Orbes de partículas (canvas) -->
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <!-- Haces de luz -->
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <!-- Grano de película -->
+      <div class="hero-grain" aria-hidden="true"></div>
+      <!-- Barrido de revelado (una sola vez) -->
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <!-- Badge -->
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            Refacciones · Cascos · Accesorios
+          </div>
+
+          <!-- Título animado -->
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>Todo para tu moto</span></span>
+            <span class="line"><span>en un solo lugar.</span></span>
+            <span class="line"><span class="accent">Domina el Camino.</span></span>
+          </h1>
+
+          <!-- Subtítulo -->
+          <p class="hero-sub" id="hero-sub">
+            En <strong>Moto Refacciones Kuali</strong> encuentras cascos certificados, neumáticos, frenos, cadenas, aceites y accesorios con <strong>stock disponible</strong> y asesoría de motociclistas para motociclistas. Tres sucursales para mantener tu pasión rodando: Tlaltenango, Colotlán y García de la Cadena.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="#contacto" class="btn-gold">
+              Cotiza tu refacción por WhatsApp
+              <i class="fa-solid fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+            <a href="#categorias" class="btn-outline">
+              <i class="fa-solid fa-list" style="font-size:14px; color:var(--gray);"></i>
+              Ver categorías
+            </a>
+          </div>
+
+          <!-- Trust bar -->
+          <div class="hero-trust" id="hero-trust" aria-label="Ventajas de Moto Refacciones Kuali">
+            <div class="trust-item">
+              <i class="fa-solid fa-boxes-stacked"></i>
+              Stock disponible
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-store"></i>
+              3 sucursales
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              Libertad · Fuerza · Seguridad
+            </div>
+          </div>
+
+        </div><!-- /.hero-content -->
+      </div>
+
+      <!-- Indicador de scroll -->
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         MARQUEE — categorías de producto
+    ══════════════════════════════════════════════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════
+         VENTAJAS — Por qué Kuali
+    ══════════════════════════════════════════════════ -->
+    <section id="ventajas" aria-labelledby="ventajas-heading">
+      <div class="container">
+
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">Por qué Kuali</div>
+            <h2 class="why-quote" id="ventajas-heading">
+              Tu moto no puede esperar…
+              <em> por eso tenemos la refacción lista cuando la necesitas.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            Somos una refaccionaria 100% enfocada en el motociclismo. Aquí no vienes por una pieza: vienes por todo lo que tu moto necesita para seguir rodando segura.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-boxes-stacked"></i>
+            </div>
+            <h3>Stock real en piso</h3>
+            <p>Refacciones, consumibles y accesorios en existencia para que salgas rodando el mismo día, sin listas de espera.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-map-location-dot"></i>
+            </div>
+            <h3>Tres sucursales</h3>
+            <p>Matriz en Tlaltenango, Zacatecas, y sucursales en Colotlán, Jalisco y García de la Cadena. Cerca de donde ruedas.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+            <h3>Asesoría de motociclistas</h3>
+            <p>Te decimos qué pieza pide tu modelo y cómo cuidarla. Atención directa de gente que también anda en moto.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-helmet-safety"></i>
+            </div>
+            <h3>Equipo que te protege</h3>
+            <p>Cascos y equipo de protección para rodar con libertad y fuerza, pero sobre todo con seguridad.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CATEGORÍAS — Catálogo por categoría
+    ══════════════════════════════════════════════════ -->
+    <section id="categorias" aria-labelledby="cat-heading">
+      <div class="container">
+
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Catálogo</div>
+            <h2 class="section-title" id="cat-heading">
+              Tres estantes,<br>
+              <span class="gold">una sola pasión</span>
+            </h2>
+            <p style="color:var(--gray); margin-top:16px; font-size:15.5px; max-width:460px; line-height:1.7;">
+              Del casco a los neumáticos: en Kuali cubrimos cada parte de tu moto con producto en existencia.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">¿Qué le hace falta a tu moto?</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid">
+
+          <!-- Cascos y equipo -->
+          <div class="amb-card reveal">
+            <img class="amb-img"
+              src="imagenes/tienda-cascos-rines.jpg"
+              alt="Pared de cascos para motocicleta de distintas marcas y diseños en exhibición dentro de Moto Refacciones Kuali">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(168,225,26,0.15); border-color:rgba(200,248,87,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-helmet-safety" style="color:var(--gold-light);"></i>
+              </div>
+              <h3>Cascos y equipo de protección</h3>
+              <p>Cascos integrales, abatibles y de cross, además de guantes, chamarras y protecciones. Varias marcas y tallas de CH a XL.</p>
+              <div class="amb-temp">Categoría 01 — Protección</div>
+            </div>
+          </div>
+
+          <!-- Neumáticos y rines -->
+          <div class="amb-card reveal d1">
+            <img class="amb-img"
+              src="imagenes/tienda-cascos-neumaticos.jpg"
+              alt="Neumáticos para motocicleta y cuatrimoto apilados junto a estantes con cascos en Moto Refacciones Kuali">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(168,225,26,0.15); border-color:rgba(200,248,87,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-circle-notch" style="color:var(--gold-light);"></i>
+              </div>
+              <h3>Neumáticos y rines</h3>
+              <p>Llantas para calle, doble propósito, trabajo y cuatrimoto, más cámaras, corbatas y rines para el rodado que tu moto necesita.</p>
+              <div class="amb-temp">Categoría 02 — Rodado</div>
+            </div>
+          </div>
+
+          <!-- Refacciones y carrocería -->
+          <div class="amb-card reveal d2">
+            <img class="amb-img"
+              src="imagenes/refacciones-guardabarras.jpg"
+              alt="Guardabarras y piezas de carrocería para motocicleta colgadas por modelo en el muro de exhibición de Kuali">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(168,225,26,0.15); border-color:rgba(200,248,87,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-gears" style="color:var(--gold-light);"></i>
+              </div>
+              <h3>Refacciones y carrocería</h3>
+              <p>Guardabarras, frenos, cadenas, kits de arrastre, baleros, retenes, bujías y consumibles clasificados por modelo.</p>
+              <div class="amb-temp">Categoría 03 — Mecánica</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CÓMO COMPRAR
+    ══════════════════════════════════════════════════ -->
+    <section id="comprar" aria-labelledby="comprar-heading">
+      <div class="container">
+
+        <div class="proceso-header reveal">
+          <div class="label">Cómo comprar</div>
+          <h2 class="section-title" id="comprar-heading">
+            De la duda a la pieza correcta, <span class="gold">en tres pasos</span>
+          </h2>
+          <p>Escríbenos o pásate a cualquier sucursal. Te atendemos directo, sin intermediarios.</p>
+        </div>
+
+        <div class="proceso-grid">
+
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Dinos tu moto y qué necesitas</h3>
+            <p>Mándanos marca, modelo y año por WhatsApp, o tráelos anotados. Con eso identificamos la refacción exacta.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Confirmamos existencia y precio</h3>
+            <p>Revisamos el stock en las tres sucursales y te pasamos precio cerrado, sin sorpresas ni letras chiquitas.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Pasas, pagas y sigues rodando</h3>
+            <p>Recoges tu pieza o accesorio en la sucursal que te quede más cerca y regresas al camino el mismo día.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         DESTACADO — Cascos y equipo de protección
+    ══════════════════════════════════════════════════ -->
+    <section id="cascos" aria-labelledby="cascos-heading">
+      <div class="container">
+        <div class="producto-wrap">
+
+          <!-- Info -->
+          <div class="reveal">
+            <div class="label">Producto destacado</div>
+            <h2 class="section-title" id="cascos-heading">
+              Un casco para cada camino<br>
+              <span class="gold">y para cada cabeza</span>
+            </h2>
+            <p class="producto-lead">
+              La seguridad no se improvisa. En Kuali tenemos uno de los muros de cascos más completos de la región: integrales para carretera, abatibles para ciudad y de cross para la terracería, en todas las tallas y con diseños que sí quieres traer puestos.
+            </p>
+
+            <ul class="feature-rows" aria-label="Características de la línea de cascos Kuali">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-helmet-safety"></i></div>
+                <div>
+                  <h4>Integrales, abatibles y de cross</h4>
+                  <p>El estilo correcto según cómo y dónde ruedas.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-ruler-combined"></i></div>
+                <div>
+                  <h4>Tallas de CH a XL</h4>
+                  <p>Te medimos en tienda para que el casco quede firme y cómodo.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div>
+                <div>
+                  <h4>Cascos certificados</h4>
+                  <p>Modelos con certificación de seguridad y micas de repuesto disponibles.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                <div>
+                  <h4>Para todos los presupuestos</h4>
+                  <p>Desde tu primer casco hasta el de largo camino, con opciones en cada rango de precio.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Lo que encuentras en la línea de cascos">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">CH–XL</span>
+                <span class="spec-name">Tallas</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Varias</span>
+                <span class="spec-name">Marcas</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Calle/Cross</span>
+                <span class="spec-name">Estilos</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">En piso</span>
+                <span class="spec-name">Disponibilidad</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual -->
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <div class="topo-photo-frame">
+                <img src="imagenes/tienda-cascos-rines.jpg"
+                     alt="Exhibición de decenas de cascos para moto por talla y diseño en la matriz de Moto Refacciones Kuali">
+              </div>
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Muro de cascos — En tienda
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-helmet-safety" style="color:var(--gold);"></i>
+                Pruébalo antes de llevarlo
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         STATS
+    ══════════════════════════════════════════════════ -->
+    <section id="stats" aria-label="Datos de Moto Refacciones Kuali">
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="3" aria-label="3">0</div>
+            <div class="stat-lbl">Sucursales<br>para atenderte</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="2" aria-label="2">0</div>
+            <div class="stat-lbl">Estados: Zacatecas<br>y Jalisco</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="7" aria-label="7">0</div>
+            <div class="stat-lbl">Días abiertos<br>en la matriz</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="100" data-suffix="%" aria-label="100 por ciento">0</div>
+            <div class="stat-lbl">Enfocados<br>en el motociclismo</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         TIPOS DE MOTO
+    ══════════════════════════════════════════════════ -->
+    <section id="tipos" aria-labelledby="tipos-heading">
+      <div class="container">
+
+        <div class="sectores-hdr reveal">
+          <div class="label">Para tu tipo de moto</div>
+          <h2 class="section-title" id="tipos-heading">
+            Rueda lo que ruedes, <span class="gold">tenemos tu refacción</span>
+          </h2>
+          <p>Atendemos por igual a quien usa la moto para trabajar y a quien la usa para escaparse el fin de semana.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-gauge-high sector-icon" aria-hidden="true"></i>
+            <h3>Deportiva</h3>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-truck-fast sector-icon" aria-hidden="true"></i>
+            <h3>Trabajo y reparto</h3>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-mountain-sun sector-icon" aria-hidden="true"></i>
+            <h3>Doble propósito</h3>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-truck-monster sector-icon" aria-hidden="true"></i>
+            <h3>Cuatrimoto (ATV)</h3>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-motorcycle sector-icon" aria-hidden="true"></i>
+            <h3>Clásica y chopper</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         NEUMÁTICOS Y RINES  (sección CON imagen de fondo)
+    ══════════════════════════════════════════════════ -->
+    <section id="neumaticos" class="servicio srv-alt has-bg bg-neumaticos" aria-labelledby="neum-heading">
+      <div class="container">
+        <div class="servicio-wrap">
+
+          <div class="reveal">
+            <div class="label">Rodado</div>
+            <h2 class="section-title" id="neum-heading">
+              Neumáticos<br><span class="gold">para cada terreno</span>
+            </h2>
+            <p class="servicio-lead">
+              El único punto de tu moto que toca el suelo. Elige bien y te lo montamos: llanta nueva, cámara y corbata en la misma visita.
+            </p>
+
+            <ul class="srv-list" aria-label="Tipos de neumáticos y rodado disponibles">
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Llantas para calle y ciudad</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Doble propósito y terracería</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Llantas de trabajo reforzadas</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Llantas para cuatrimoto (ATV)</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Cámaras y corbatas</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Rines y rayos</li>
+            </ul>
+
+            <a href="#contacto" class="btn-gold">
+              Consulta tu medida
+              <i class="fa-solid fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+          </div>
+
+          <div class="reveal d2">
+            <div class="srv-photo-frame">
+              <img src="imagenes/tienda-cascos-neumaticos.jpg"
+                   alt="Neumáticos para motocicleta y cuatrimoto en exhibición dentro de Moto Refacciones Kuali">
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Calle · Trabajo · ATV
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         REFACCIONES Y CARROCERÍA  (video del recorrido en tienda)
+    ══════════════════════════════════════════════════ -->
+    <section id="refacciones" class="servicio" aria-labelledby="refac-heading">
+      <div class="container">
+        <div class="servicio-wrap flip">
+
+          <div class="reveal">
+            <div class="label">Mecánica</div>
+            <h2 class="section-title" id="refac-heading">
+              Refacciones <span class="gold">y carrocería</span>
+            </h2>
+            <p class="servicio-lead">
+              Lo que se desgasta con cada kilómetro, clasificado por modelo y listo para llevar:
+            </p>
+
+            <ul class="srv-list" aria-label="Refacciones y consumibles disponibles">
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Guardabarras y piezas de plástico</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Balatas, discos y sistema de freno</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Cadenas y kits de arrastre</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Baleros, retenes y sellos</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Bujías, cables y chicotes</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Aceites y lubricantes</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Focos, micas y sistema eléctrico</li>
+            </ul>
+
+            <a href="#contacto" class="btn-gold">
+              Pide tu refacción
+              <i class="fa-solid fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+          </div>
+
+          <div class="reveal d2">
+            <div class="srv-photo-frame reel">
+              <video src="imagenes/tour-tienda-guardabarras.mp4"
+                     poster="imagenes/poster-guardabarras.jpg"
+                     autoplay muted loop playsinline
+                     aria-label="Recorrido por el muro de guardabarras y piezas de carrocería en Moto Refacciones Kuali"></video>
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Stock disponible
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         ACCESORIOS  (video del recorrido en tienda)
+    ══════════════════════════════════════════════════ -->
+    <section id="accesorios" class="servicio srv-alt" aria-labelledby="acc-heading">
+      <div class="container">
+        <div class="servicio-wrap">
+
+          <div class="reveal">
+            <div class="label">Personaliza tu moto</div>
+            <h2 class="section-title" id="acc-heading">
+              Accesorios <span class="gold">y protección de carga</span>
+            </h2>
+            <p class="servicio-lead">
+              Súmale a tu moto comodidad, seguridad y estilo. Lo que necesitas para viajar cargado y rodar tranquilo:
+            </p>
+
+            <ul class="srv-list" aria-label="Accesorios disponibles">
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Baúles, maletas y parrillas</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Puños, manubrios y espejos</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Chamarras, guantes y protecciones</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Faros y tiras LED</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Candados y sistemas antirrobo</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Fundas y cuidado de la moto</li>
+            </ul>
+
+            <a href="#contacto" class="btn-outline">
+              <i class="fa-solid fa-comments" style="font-size:15px; color:var(--gray);"></i>
+              Pregunta por un accesorio
+            </a>
+          </div>
+
+          <div class="reveal d2">
+            <div class="srv-photo-frame reel">
+              <video src="imagenes/tour-tienda-cascos.mp4"
+                     poster="imagenes/poster-cascos.jpg"
+                     autoplay muted loop playsinline
+                     aria-label="Recorrido por los estantes de cascos y accesorios de Moto Refacciones Kuali"></video>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-store" style="color:var(--gold);"></i>
+                Recorre la tienda
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SUCURSALES  (sección CON imagen de fondo — fachada)
+    ══════════════════════════════════════════════════ -->
+    <section id="sucursales" class="servicio has-bg bg-fachada" aria-labelledby="suc-heading">
+      <div class="container">
+
+        <div class="sectores-hdr reveal">
+          <div class="label">Dónde encontrarnos</div>
+          <h2 class="section-title" id="suc-heading">
+            Tres sucursales, <span class="gold">un mismo compromiso</span>
+          </h2>
+          <p>Llega a la que te quede más cerca o escríbenos por WhatsApp y te confirmamos existencias antes de que salgas.</p>
+        </div>
+
+        <div class="sucursales-grid">
+
+          <!-- Matriz -->
+          <div class="suc-card reveal">
+            <span class="suc-tag">Matriz</span>
+            <h3>Tlaltenango, Zacatecas</h3>
+            <div class="suc-row">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              <span>Emiliano Carranza #130, Tlaltenango, Zacatecas.</span>
+            </div>
+            <div class="suc-row">
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <a href="tel:+524376880540">437 688 0540</a>
+            </div>
+            <div class="suc-row">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              <a href="https://wa.me/524376880540" target="_blank" rel="noopener noreferrer">Escríbenos por WhatsApp</a>
+            </div>
+            <div class="suc-hours">
+              Lun, Mar, Mié, Vie y Sáb: 9:00 a 20:00 (horario corrido)<br>
+              Jue y Dom: 10:00 a 15:00
+            </div>
+          </div>
+
+          <!-- Colotlán -->
+          <div class="suc-card reveal d1">
+            <span class="suc-tag">Sucursal</span>
+            <h3>Colotlán, Jalisco</h3>
+            <div class="suc-row">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              <span>Colotlán, Jalisco.</span>
+            </div>
+            <div class="suc-row">
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <a href="tel:+524999924156">499 992 4156</a>
+            </div>
+            <div class="suc-row">
+              <i class="fa-solid fa-motorcycle" aria-hidden="true"></i>
+              <span>Refacciones, cascos y accesorios para la región norte de Jalisco.</span>
+            </div>
+            <div class="suc-hours">
+              Llama para confirmar horario y existencias del día.
+            </div>
+          </div>
+
+          <!-- García de la Cadena -->
+          <div class="suc-card reveal d2">
+            <span class="suc-tag">Sucursal</span>
+            <h3>García de la Cadena, Zacatecas</h3>
+            <div class="suc-row">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              <span>García de la Cadena, Zacatecas.</span>
+            </div>
+            <div class="suc-row">
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <a href="tel:+524676880404">467 688 0404</a>
+            </div>
+            <div class="suc-row">
+              <i class="fa-solid fa-motorcycle" aria-hidden="true"></i>
+              <span>Tu punto Kuali para refacciones y consumibles cerca de casa.</span>
+            </div>
+            <div class="suc-hours">
+              Llama para confirmar horario y existencias del día.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CONTACTO
+    ══════════════════════════════════════════════════ -->
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Pide tu <span class="gold">refacción o cotización</span>
+          </h2>
+          <p>Dinos qué moto tienes y qué necesitas. Te respondemos por WhatsApp con disponibilidad y precio.</p>
+        </div>
+
+        <div class="contact-box reveal">
+
+          <!-- Info panel -->
+          <div class="contact-info">
+            <h3>Atención directa</h3>
+            <p class="ci-sub">Hablas con el mostrador de Kuali, no con un call center.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Matriz</h4>
+                  <p>Emiliano Carranza #130,<br>
+                     Tlaltenango, Zacatecas.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Teléfonos</h4>
+                  <p>
+                    <a href="tel:+524376880540">Tlaltenango · 437 688 0540</a><br>
+                    <a href="tel:+524999924156">Colotlán · 499 992 4156</a><br>
+                    <a href="tel:+524676880404">García de la Cadena · 467 688 0404</a>
+                  </p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>WhatsApp</h4>
+                  <p>Mándanos marca, modelo y año de tu moto y te cotizamos la pieza.</p>
+                  <a href="https://wa.me/524376880540?text=Hola%20Moto%20Refacciones%20Kuali%2C%20quiero%20cotizar%20una%20refacci%C3%B3n." target="_blank"
+                     rel="noopener noreferrer" class="ci-wa-link">
+                    Abrir chat →
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div><!-- /.contact-info -->
+
+          <!-- Form -->
+          <div class="contact-form-wrap">
+            <h3>Cotiza por WhatsApp</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Ej. Juan Pérez" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">¿Qué necesitas?</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Refacción o consumible</option>
+                    <option>Casco o equipo de protección</option>
+                    <option>Neumáticos y rines</option>
+                    <option>Accesorios y baúles</option>
+                    <option>Llantas para cuatrimoto (ATV)</option>
+                    <option>Otra consulta</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Tu moto y lo que buscas</label>
+                <textarea id="f-msg" class="form-control" rows="4" required
+                          placeholder="Cuéntanos marca, modelo y año de tu moto, y qué pieza o accesorio necesitas…"></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                Enviar por WhatsApp
+              </button>
+              <p class="form-note">
+                Al enviar se abre WhatsApp con tu mensaje listo para continuar la conversación con el equipo de Kuali.
+              </p>
+            </form>
+          </div>
+
+        </div><!-- /.contact-box -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <svg class="logo-mark" viewBox="0 0 64 64" role="img" aria-label="Emblema de Moto Refacciones Kuali">
+            <defs>
+              <linearGradient id="kualiLime-f" x1="12" y1="6" x2="52" y2="60" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#e9ff8f"/><stop offset=".5" stop-color="#a8e11a"/><stop offset="1" stop-color="#72a00c"/>
+              </linearGradient>
+            </defs>
+            <circle cx="32" cy="32" r="29.6" fill="none" stroke="url(#kualiLime-f)" stroke-width="2.2"/>
+            <circle cx="32" cy="32" r="24" fill="none" stroke="url(#kualiLime-f)" stroke-width="1" stroke-dasharray="1.6 4.6" stroke-linecap="round" opacity=".45"/>
+            <g fill="none" stroke="url(#kualiLime-f)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M25 18 V46"/><path d="M27 32 L43.5 18.5"/><path d="M27 32 L44.5 45.5"/>
+            </g>
+            <circle cx="26" cy="32" r="6.1" fill="#0a0d07"/>
+            <circle cx="26" cy="32" r="6.1" fill="none" stroke="url(#kualiLime-f)" stroke-width="2.2"/>
+          </svg>
+          <span>Moto Refacciones Kuali</span>
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> Moto Refacciones Kuali — Domina el Camino · Libertad, Fuerza y Seguridad. Todos los derechos reservados.
+        </p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/share/14rvZuZdV7H/"
+             target="_blank" rel="noopener noreferrer"
+             class="footer-soc" aria-label="Facebook de Moto Refacciones Kuali">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/motorefkuali"
+             target="_blank" rel="noopener noreferrer"
+             class="footer-soc" aria-label="Instagram de Moto Refacciones Kuali">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/524376880540" target="_blank"
+             rel="noopener noreferrer" class="footer-soc" aria-label="WhatsApp de Moto Refacciones Kuali">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════════════════
+       WHATSAPP FLOTANTE
+  ══════════════════════════════════════════════════════ -->
+  <a href="https://wa.me/524376880540?text=Hola%2C%20visit%C3%A9%20su%20sitio%20web%20y%20me%20gustar%C3%ADa%20cotizar%20una%20refacci%C3%B3n%20para%20mi%20moto."
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
